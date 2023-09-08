@@ -24,6 +24,27 @@ header img{
     display: flex;
     align-content: center;
 }
+/* =============================================nav============================================== */
+nav a{
+    text-decoration: none;
+    font-size: 5mm;
+    display: flex;
+    justify-content: center;
+    color: #FFCC00;
+    background-color: #03357C;
+    padding: 25px;
+    width: 300px;
+}
+nav a:hover{
+    background-color: #FFCC00;
+    color: #03357C;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
+}
+
 /* =============================================body============================================= */
 main{
     width: 80%;
