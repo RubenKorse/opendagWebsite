@@ -27,6 +27,7 @@ header img{
 /* =============================================nav============================================== */
 nav a{
     text-decoration: none;
+    font-weight: bold;
     font-size: 5mm;
     display: flex;
     justify-content: center;
@@ -55,15 +56,24 @@ img{
     height: 400px;
     width: 100%;
 }
+.rooster img{
+    height: 800px;
+}
 h1, h2, p{
     margin: 10px;
 }
+h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
 .locaties{
     display: flex;
+    justify-content: space-around;
 }
-
-
-
+.locaties p{
+    font-weight: bold;
+}
 /* ===========================================footer=========================================== */
 footer{
     background-color: #FFCC00;
