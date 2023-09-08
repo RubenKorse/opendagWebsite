@@ -74,6 +74,9 @@ h2{
 .locaties p{
     font-weight: bold;
 }
+.blokkenimg img{
+    height: 650px;
+}
 /* ===========================================footer=========================================== */
 footer{
     background-color: #FFCC00;
