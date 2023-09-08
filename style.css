@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Fellix,"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+body{
+    color: #03357C;
+}
+
+/* =============================================header========================================== */
+header{
+    background-color: #FFCC00;
+    height: 105px;
+}
+header h1{
+    display: flex;
+    align-content: center;
+    font-size: 17mm;
+}
+header img{
+    height: 80px ;
+    width: 157px;
+    padding: 10px 0 0 10px;
+    display: flex;
+    align-content: center;
+}
+/* =============================================body============================================= */
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+img{
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+}
+h1, h2, p{
+    margin: 10px;
+}
+.locaties{
+    display: flex;
+}
+
+
+
+/* ===========================================footer=========================================== */
+footer{
+    background-color: #FFCC00;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
