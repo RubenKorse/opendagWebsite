@@ -85,3 +85,39 @@ footer{
     justify-content: center;
     align-items: center;
 }
+.bordercard {
+    border-radius: 5%;
+    border: 3px solid #03357C; 
+    padding: 10px;
+    margin: 150px 0 50px 0;
+    text-align: center;
+    width: 200px;
+} 
+.borderimg {
+    margin-bottom: 50px;
+}  
+.borderimg img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; 
+}
+.borderimg img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 50%; 
+    border: 3px solid #03357C; 
+    padding: 5px; 
+}
+.bordercard p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #03357C;
+    margin: 0;
+}
+.margin-card-p{
+    margin-bottom: 50px;
+}
+.space-around{
+    display: flex;
+    justify-content: space-around;
+}
