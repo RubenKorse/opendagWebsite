@@ -36,9 +36,10 @@ nav a{
     padding: 25px;
     width: 300px;
 }
-nav a:hover{
+nav a:Hover{
     background-color: #FFCC00;
     color: #03357C;
+    transition: 0,5s;
 }
 .nav{
     display: flex;
