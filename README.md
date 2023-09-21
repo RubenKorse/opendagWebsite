@@ -26,6 +26,7 @@ In this document you will find the conventions I used to make this project. Thes
 *spacing*
   -  use tabs to show the parent chill relation between difrten tages.
   -  one tab is the lengt of 4 spaces.
+
 *naming conventions html*
   -  for class names always use CamelCase (example: class="LogoHeader).
   -  use logic names for classes so if your dont use class="img" for the logo use class="logo".
