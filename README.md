@@ -16,58 +16,26 @@ Dank je wel voor je interesse in onze Software Developer-opleiding. We hopen je 
 
 ![Curio Logo](curiologo.png)
 
-
+(note: some of my conventions are implemented yet and have to be fixed)
 
 # Web Development Conventions
 
-This document outlines coding and project management conventions to ensure consistency and maintainability in web development projects.
+In this document you will find the conventions I used to make this project. These rules are here to make it easyer to work togetter and to make every thing better to read.
 
-## Table of Contents
+## HTML
+*spacing*
+  -  use tabs to show the parent chill relation between difrten tages.
+  -  one tab is the lengt of 4 spaces.
+*naming conventions html*
+  -  for class names always use CamelCase (example: class="LogoHeader).
+  -  use logic names for classes so if your dont use class="img" for the logo use class="logo".
+  -  use only one lagause for your classes (the laungeus you are making the project in).
+## CSS
+*spacing*
+  -  one tab is the lengt of 4 spaces.
+  -  always leave one line open between diftent objects.
+  -  put the difrent stylings for the difrent parts of the websites in difrent block devided bye coment line that tells you wat it is abouth (example: /* =============================================header========================================== */)
 
-1. [Coding Conventions](#coding-conventions)
-   - [HTML](#html)
-   - [CSS](#css)
-   - [JavaScript](#javascript)
-   - [Naming Conventions](#naming-conventions)
 
-### HTML conventions
 
-- Specify the document type with `<!DOCTYPE html>` at the beginning of HTML files.
-- Use consistent and meaningful indentation (e.g., 2 spaces or 4 spaces).
-- Organize HTML elements logically, following a clear structure.
-- Use semantic HTML elements whenever possible (e.g., `<header>`, `<nav>`, `<section>`, `<article>`, `<footer>`).
-- Include comments to explain complex or non-obvious code.
-- Use lowercase letters for HTML tags and attributes.
-- Provide alternative text for images using the `alt` attribute.
-- Keep the use of inline styles and inline JavaScript to a minimum.
 
-### CSS conventions
-
-- Use meaningful and descriptive class and ID names for CSS selectors.
-- Maintain a consistent indentation and formatting style.
-- Use external CSS files for styles, and link them in the HTML with the `<link>` tag.
-- Group related CSS rules together for better readability.
-- Avoid using `!important` unless absolutely necessary.
-- Use CSS preprocessors like SASS or LESS for more maintainable stylesheets if appropriate.
-- Implement responsive design techniques for cross-device compatibility.
-- Comment your CSS to explain the purpose of specific styles or sections.
-
-### JavaScript conventions
-
-- Use consistent and meaningful variable and function names.
-- Follow the appropriate coding style (e.g., camelCase, snake_case) for variable and function naming.
-- Use `const` or `let` to declare variables and avoid using `var`.
-- Use strict mode by adding `"use strict";` at the beginning of JavaScript files.
-- Organize code into functions or modules with clear responsibilities.
-- Avoid global variables whenever possible.
-- Handle errors and exceptions gracefully using try-catch blocks.
-- Use meaningful comments to explain complex algorithms or logic.
-- Minimize the use of synchronous operations to avoid blocking the main thread.
-
-### Naming Conventions
-
-- Follow a consistent naming convention for files and directories (e.g., kebab-case, snake_case, or camelCase).
-- Choose descriptive and meaningful names for variables, functions, classes, and identifiers.
-- Use clear and concise names to improve code readability and understanding.
-- Use prefixes or namespaces when necessary to avoid naming conflicts.
-- Document naming conventions in the project's documentation for team members to follow.
