@@ -15,5 +15,6 @@ In this document you will find the conventions I used to make this project. Thes
 *spacing*
   -  one tab is the lengt of 4 spaces.
   -  always leave one line open between diftent objects.
+      ![CssImg](docs/CssImg.png)
   -  put the difrent stylings for the difrent parts of the websites in difrent block devided bye coment line that tells you wat it is abouth:
       ![StsylingDevider](docs/StsylingDevider.png)
