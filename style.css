@@ -3,11 +3,13 @@
     padding: 0;
     font-family: Fellix,"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
 body{
     color: #03357C;
 }
 
 /* =============================================header========================================== */
+
 header{
     background-color: #FFCC00;
     height: 105px;
@@ -15,11 +17,13 @@ header{
     position: fixed;
     top: 0;
 }
+
 header h1{
     display: flex;
     align-content: center;
     font-size: 17mm;
 }
+
 header img{
     height: 80px ;
     width: 157px;
@@ -27,7 +31,9 @@ header img{
     display: flex;
     align-content: center;
 }
+
 /* =============================================nav============================================== */
+
 nav a{
     text-decoration: none;
     font-weight: bold;
@@ -39,52 +45,65 @@ nav a{
     padding: 25px;
     width: 300px;
 }
+
 nav a:Hover{
     background-color: #FFCC00;
     color: #03357C;
     transition: 0,5s;
 }
+
 .nav{
     display: flex;
     justify-content: space-around;
     margin: 25px;
 }
 
+
 /* =============================================body============================================= */
 main{
     width: 80%;
     margin: 0 auto;
 }
+
 img{
     object-fit: cover;
     height: 400px;
     width: 100%;
 }
+
 .rooster img{
     height: 800px;
 }
+
 h1, h2,h3, p{
     margin: 10px;
 }
+
 h1{
     margin: 115px 0 0 0;
 }
+
 h2{
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
+
 .locaties{
     display: flex;
     justify-content: space-around;
 }
+
 .locaties p{
     font-weight: bold;
 }
+
 .blokkenimg img{
     height: 650px;
 }
+
 /* ===========================================footer=========================================== */
+
 footer{
     background-color: #FFCC00;
     height: 100px;
@@ -92,6 +111,7 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
 .bordercard {
     border-radius: 5%;
     border: 3px solid #03357C; 
@@ -99,15 +119,18 @@ footer{
     margin: 150px 0 50px 0;
     text-align: center;
     width: 200px;
-} 
+}
+
 .borderimg {
     margin-bottom: 50px;
-}  
+}
+
 .borderimg img {
     max-width: 100%;
     height: auto;
     border-radius: 50%; 
 }
+
 .borderimg img {
     max-width: 80%;
     height: auto;
@@ -115,15 +138,18 @@ footer{
     border: 3px solid #03357C; 
     padding: 5px; 
 }
+
 .bordercard p {
     font-size: 18px;
     font-weight: bold;
     color: #03357C;
     margin: 0;
 }
+
 .margin-card-p{
     margin-bottom: 50px;
 }
+
 .space-around{
     display: flex;
     justify-content: space-around;
