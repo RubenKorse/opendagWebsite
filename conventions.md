@@ -2,7 +2,7 @@
 
 In this document you will find the conventions I used to make this project. These rules are here to make it easyer to work togetter and to make every thing better to read.
 
-![Curio Logo](logo.jpg)
+![Curio Logo](img/logo.jpg)
 
 ## HTML
 *spacing*
