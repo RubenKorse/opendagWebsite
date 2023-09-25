@@ -10,19 +10,19 @@ In this document you will find the conventions I used to make this project. Thes
     
   -  one tab is the lengt of 4 spaces.
  
-  ![tabs](docs/tabs.png)
+   ![tabs](docs/tabs.png)
 
 *naming conventions html*
   -  for class names always use CamelCase (example: class="LogoHeader).
 
-  ![naamgeving](docs/naamgeving.png)
+   ![naamgeving](docs/naamgeving.png)
   -  use logic names for classes so if your dont use class="img" for the logo use class="logo".
   -  use only one lagause for your classes (the laungeus you are making the project in).
 ## CSS
 *spacing*
   -  one tab is the lengt of 4 spaces.
 
-  ![tabs](docs/tabs.png)
+   ![tabs](docs/tabs.png)
   -  always leave one line open between diftent objects.
 
       ![CssImg](docs/CssImg.png)
